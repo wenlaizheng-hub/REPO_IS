@@ -1,0 +1,22 @@
+Kind,Name,AvgCyclomatic,MaxCyclomatic,Cyclomatic,RatioCommentToCode,CountLineCodeExe,CountLineCode,AvgCountLineCode
+File,"auth.c",6,16,,"0,01",122,159,16
+Function,"auth_add",,,7,"0,00",16,20,
+Function,"auth_change_password",,,2,"0,00",3,5,
+Function,"auth_check",,,9,"0,00",16,20,
+Function,"auth_delete",,,2,"0,00",3,5,
+Function,"auth_init",,,3,"0,00",7,10,
+Function,"auth_rename_user",,,4,"0,00",10,13,
+Function,"cancella_utente",,,3,"0,00",9,13,
+Function,"crea_utente",,,2,"0,00",7,10,
+Static Function,"ct_str_eq",,,5,"0,00",7,10,
+Function,"effettua_login",,,3,"0,00",10,13,
+Static Function,"find_user",,,5,"0,00",15,20,
+Static Function,"gestisci_cambio_password",,,9,"0,00",18,24,
+Static Function,"gestisci_rinomina_utente",,,7,"0,00",24,31,
+Function,"main",,,11,"0,03",25,30,
+File,"main.c",6,11,,"0,04",137,181,20
+Function,"modifica_utente",,,6,"0,00",14,18,
+Function,"read_line",,,3,"0,00",7,10,
+Static Function,"rewrite_db_skip_or_replace",,,16,"0,02",42,51,
+Static Function,"trim_nl",,,2,"0,00",2,4,
+Static Function,"valida_complessita_password",,,8,"0,00",23,32,
